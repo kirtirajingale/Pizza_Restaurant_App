@@ -19,6 +19,10 @@
     flex: 3;
 }
 
+.item:last-child{
+    justify-content: flex-end;
+}
+
 .callButtton{
     background-color: white;
     border-radius: 50%;
@@ -42,3 +46,35 @@
     font-weight: bold;
 }
 
+.list{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+.listItem{
+    margin: 20px;
+    font-weight: 500;
+}
+
+.cart{
+    position: relative;
+}
+
+.counter{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #d1411e ;
+}
